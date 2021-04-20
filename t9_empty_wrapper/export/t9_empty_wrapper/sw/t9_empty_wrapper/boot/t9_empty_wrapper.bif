@@ -1,0 +1,7 @@
+/*t9_empty_wrapper*/
+the_ROM_image:
+{
+  [bootloader]<t9_empty_wrapper/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

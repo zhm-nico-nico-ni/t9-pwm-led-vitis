@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]H:/prj/t9_empty_wrapper/export/t9_empty_wrapper/sw/t9_empty_wrapper/boot/fsbl.elf
+	H:\prj\fsbl1\_ide\bitstream\t9_1_wrapper.bit
+	H:/prj/fsbl1/Debug/fsbl1.elf
+}
